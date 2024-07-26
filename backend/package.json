@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1659.0",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "jose": "^5.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "node-jose": "^2.2.0",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "spotify-web-api-node": "^5.0.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
