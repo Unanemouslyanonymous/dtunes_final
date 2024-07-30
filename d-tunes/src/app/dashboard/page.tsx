@@ -275,10 +275,10 @@ const Dashboard = () => {
           </h1>
           {user?.role === "artist" && (
             <button
-              className="absolute top-4 right-4 bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition"
+              className="absolute top-4 right-4  flex flex-row justify-center items-center bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition"
               onClick={() => router.push("/dashboard/add-music")}
             >
-              <Plus size={20} className="mr-2" /> Add Music
+              <Plus size={20} className="mr-2" /> <span>Add Music</span>
             </button>
           )}
         </div>
